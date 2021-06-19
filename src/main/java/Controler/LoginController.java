@@ -1,7 +1,9 @@
 package Controler;
 
-import main.java.Bean.User;
-import main.java.Dao.LoginDao;
+
+
+import Bean.User;
+import Dao.LoginDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
+
 
 @WebServlet("/logintest")
 public class LoginController extends HttpServlet {
