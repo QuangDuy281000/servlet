@@ -1,4 +1,4 @@
-package main.java.Bean;
+package Bean;
 
 public class User {
     private String name;

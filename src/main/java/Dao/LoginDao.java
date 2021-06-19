@@ -1,4 +1,4 @@
-package main.java.Dao;
+package Dao;
 
 public class LoginDao {
     public static boolean kiemtra(String pass){
